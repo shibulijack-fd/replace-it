@@ -83,7 +83,7 @@
   			$.ajax({
   				type: 'POST',
   				dataType: "json",
-  				url: 'home.php',
+  				url: 'replace.php',
   				data: {"testData":textToBeReplaced},
   				cache: false,
   				success: function(data) {
