@@ -78,7 +78,7 @@
   	
   	<script>
   		$("#replaceText").click(function(){
-  			debugger;
+        $('#diffContent').html('<img src="assets/images/load.gif" width="100" height="100" style="display: block; margin: auto;">');
   			var textToBeReplaced = $("#testData").val();
   			$.ajax({
   				type: 'POST',
